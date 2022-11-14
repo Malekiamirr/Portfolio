@@ -1,0 +1,88 @@
+.footer {
+  display: grid;
+  grid-template-columns: 25fr 22.5fr 22.5fr 30fr;
+  column-gap: 3.6rem;
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+  padding: 0 25rem;
+}
+
+.pages {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-header {
+  font-size: 3.2rem;
+  /* margin-bottom: 2.4rem; */
+  font-weight: 500;
+}
+
+.page-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  font-weight: 400;
+}
+
+.page-link:link,
+.page-link:visited {
+  color: #666;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.page-link:hover,
+.page-link:active {
+  color: #ff8c92;
+}
+
+.stay-connect {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.footer-icon-box {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.footer-icon {
+  font-size: 2.8rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.footer-icon:hover {
+  color: #ff8c92;
+}
+
+.scrolling {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.btn-footer:link,
+.btn-footer:visited {
+  font-size: 1.8rem;
+  background-color: #fff;
+  color: #263238;
+  border: 2px solid #f3eaeb;
+  text-decoration: none;
+  padding: 2.8rem 5rem;
+  border-radius: 1000px;
+  transition: all 0.3s;
+  text-align: center;
+  max-width: 25rem;
+}
+
+.btn-footer:hover,
+.btn-footer:active {
+  background-color: #f3eaeb;
+  color: #263238;
+}

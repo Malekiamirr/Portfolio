@@ -1,0 +1,10 @@
+/**************************/
+/* BELOW 1632px (Desktops) */
+/**************************/
+
+@media (max-width: 102em) {
+  .header {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}

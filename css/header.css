@@ -1,0 +1,164 @@
+.header {
+  padding: 6.4rem 15rem;
+  background: rgb(222, 199, 228);
+  background: linear-gradient(311deg, rgba(222, 199, 228, 1) 0%, rgba(246, 246, 246, 1) 24%, rgba(238, 230, 240, 1) 85%, rgba(222, 199, 228, 1) 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6.4rem;
+}
+
+.logo {
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: #263238;
+
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  gap: 4.8rem;
+  color: #263238;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.menu-link:link,
+.menu-link:visited {
+  color: #263238;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.menu-link:hover,
+.menu-link:active {
+  color: #ff8c92;
+}
+
+.menu-home:link,
+.menu-home:visited {
+  color: #ff8c92;
+}
+
+.menu-chat:link,
+.menu-chat:visited {
+  /* font-size: 2.8rem; */
+  background-color: #fff;
+  box-sizing: content-box;
+  padding: 2.8rem 5rem;
+  border-radius: 1000px;
+  transition: all 0.3s;
+}
+
+.menu-chat:hover,
+.menu-chat:active {
+  background-color: #f5e3e4;
+  color: #263238;
+}
+
+.chat-icon {
+  color: #ffab4e;
+  padding-left: 5px;
+}
+
+
+.section-hero {
+  display: flex;
+  padding: 8rem 6rem;
+  gap: 3.6rem;
+}
+
+.hero-text {
+  margin-top: 6.4rem;
+}
+
+.hello {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3rem;
+  color: #263238;
+  font-weight: 800;
+}
+
+.primary-header {
+  font-size: 7rem;
+  color: #263238;
+  font-weight: 800;
+  margin-top: 2.8rem;
+}
+
+.developer {
+  font-size: 7.2rem;
+  color: #263238;
+  font-weight: 500;
+  margin-top: 1.4rem;
+}
+
+.developer span {
+  font-family: 'Open Sans', sans-serif;
+  color: #ff8c92;
+}
+
+.hero-discription {
+  font-size: 1.8rem;
+  color: #555;
+  line-height: 1.6;
+  margin: 2.4rem 0 3.6rem;
+}
+
+/* button */
+.hire-me {
+  margin-right: 1.8rem;
+  padding: 3.2rem 8rem !important;
+}
+
+.hero-img {
+  position: relative;
+}
+
+.img-person {
+  max-width: 70rem;
+  margin-top: 3.2rem;
+  filter: drop-shadow(-5px -5px 41px rgb(213, 221, 231));
+  -webkit-filter: drop-shadow(-5px -5px 41px rgb(213, 221, 231));
+}
+
+.img-rope1 {
+  max-width: 18rem;
+  position: absolute;
+  top: 5%;
+  left: 85%;
+}
+
+.img-rope2 {
+  max-width: 18rem;
+  position: absolute;
+  top: 2rem;
+  left: 10rem;
+}
+
+.img-pad1 {
+  max-width: 18rem;
+  display: block;
+  margin-top: 4.8rem;
+}
+
+.img-pad2 {
+  max-width: 18rem;
+  /* position: absolute;
+  top: 90%;
+  left: 95%; */
+  margin-left: 65rem;
+  filter: drop-shadow(25px 19px 41px rgb(255, 255, 255));
+  -webkit-filter: drop-shadow(25px 19px 41px rgb(255, 255, 255));
+
+}
+
+/* - Spacing system (px) 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128  */
+
+/* - Font sizes (px) 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */

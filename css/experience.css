@@ -1,0 +1,98 @@
+.section-experience {
+  display: grid;
+  column-gap: 2rem;
+  grid-template-columns: 42fr 29fr 29fr;
+  height: 80vh;
+  font-family: 'Open Sans', sans-serif;
+  padding: 13rem 25rem;
+  position: relative;
+}
+
+.holding {
+  display: flex;
+  align-self: center;
+  gap: 1rem;
+}
+
+.experience-header {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+}
+
+.year {
+  font-size: 15rem;
+  color: #ff8c92;
+  font-weight: 800;
+}
+
+.years-header {
+  font-size: 4rem;
+  color: #263238;
+  font-weight: 700;
+  line-height: 1.3;
+  align-self: center;
+}
+
+.experience-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.coding-img-container {
+  background-color: #f2f6f7;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4rem;
+  /* padding-left: 4rem; */
+  max-width: 45rem;
+}
+
+.product-img-container {
+  background-color: #f3eaeb;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4rem;
+  /* padding-left: 4rem; */
+  max-width: 45rem;
+}
+
+.coding-img {
+  max-width: 32rem;
+  align-self: center;
+}
+
+.product-img {
+  max-width: 32rem;
+  align-self: center;
+}
+
+.coding-text {
+  font-size: 2.4rem;
+  align-self: flex-start;
+  margin-left: 6.5rem;
+  color: #687982;
+  font-weight: 500;
+}
+
+
+.product-text {
+  font-size: 2.4rem;
+  align-self: flex-start;
+  margin-left: 6.5rem;
+  color: #936c70;
+  font-weight: 500;
+}
+
+.img-rope3 {
+  position: absolute;
+  top: 68%;
+  left: 8%;
+}

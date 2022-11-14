@@ -1,0 +1,99 @@
+.resume-section {
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+  padding: 0 25rem;
+}
+
+.resume {
+  background-color: #f2f6f7;
+  padding: 10rem 35rem;
+  border-radius: 30px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.resume::after {
+  content: '';
+  display: block;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  background-color: #ebf1f4;
+  position: absolute;
+  top: -20%;
+  left: 80%;
+}
+
+.resume::before {
+  content: '';
+  display: block;
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  background-color: #ebf1f4;
+  position: absolute;
+  top: 45%;
+  left: -15%;
+}
+
+.resume-header {
+  font-size: 4.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.resume-text {
+  font-size: 1.8rem;
+  color: #555;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 3.6rem;
+}
+
+.language-icon {
+  position: absolute;
+  max-width: 8rem;
+}
+
+.html {
+  max-width: 8rem;
+  top: 66%;
+  left: 85%;
+  transform: rotate(20deg);
+}
+
+.css {
+  max-width: 8rem;
+  top: 70%;
+  left: 15%;
+  transform: rotate(-35deg);
+}
+
+.js {
+  max-width: 8rem;
+  top: 15%;
+  left: 17%;
+  transform: rotate(10deg);
+}
+
+.c {
+  max-width: 8rem;
+  top: 40%;
+  left: 5%;
+  transform: rotate(-15deg);
+}
+
+.php {
+  max-width: 8rem;
+  top: 17%;
+  left: 83%;
+  transform: rotate(-28deg);
+  z-index: 10;
+}
+
+.cc {
+  max-width: 8rem;
+  top: 57%;
+  left: 68%;
+  transform: rotate(-20deg)
+}
